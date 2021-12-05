@@ -726,14 +726,12 @@ a {
 .block-contacts-left {
     width: 26%;
     display: block;
-
+    padding-left: 80px;
 }
 
 .contacts-big {
     width: 196px;
-    display: flex;
-    padding-top: 120px;
-    padding-left: 80px;
+    margin-top: 70px;
     font-style: normal;
     font-weight: bold;
     font-size: 46px;
@@ -743,9 +741,7 @@ a {
 
 .contacts-big-text {
     width: 302px;
-    display: flex;
     padding-top: 8px;
-    padding-left: 80px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -754,10 +750,8 @@ a {
 }
 
 .contacts-tel {
-    /*width: 156px;*/
     display: flex;
     justify-content: space-between;
-    padding-left: 80px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -768,7 +762,6 @@ a {
 .btn-bnn-bkk {
     width: 100%;
     display: block;
-    margin-left: 80px;
     margin-top: 40px;
 }
 
@@ -777,7 +770,7 @@ a {
     color: #FFF4F3;
     width: 223px;
     height: 40px;
-    opacity: 0.2;
+    /*opacity: 0.2;*/
     background: #FFFFFF;
     border-radius: 8px;
 }
@@ -834,14 +827,12 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.input-jed-click>button {
-    display: flex;
+.input-jed-click-btn>button {
     border: #961914;
     color: rgba(236, 121, 115, 1);
     font-size: 18px;
     font-weight: 700;
     padding: 12px 46px;
-    margin-left: 520px;
     margin-top: 12px;
     border-radius: 7px;
     cursor: pointer;
@@ -866,3 +857,72 @@ textarea {
     color: #ffffff;
     opacity: 0.6;
 }
+
+.question-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-element-position {
+    width: 45%;
+}
+
+.block-contacts-right {
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.input-jed-click {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-link {
+    display: flex;
+    align-items: center;
+    max-width: 224px;
+    width: 100%;
+    background-color: #AB4743;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.btn-link-position {
+    margin-right: 8px;
+}
+
+.subscribe {
+    margin: 40px 0 80px 0;
+    font-size: 16px;
+}
+
+.subscribe-link {
+    color: white;
+}
+
+.public-offer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 29px 30px 30px;
+    width: 100%;
+    height: 76px;
+    background: #69120E;
+}
+
+.public-offer>p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+

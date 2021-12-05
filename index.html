@@ -456,17 +456,27 @@
                     <p class="contacts-tel">+7 (900)000-00-00</p>
 
                     <div class="btn-bnn-bkk">
-                        <button class="btn-bnn">
-                            <img src="icons/whatsapp.svg" alt="">
-                            Написать в WhatsApp
-                        </button>
-                        <button class="btn-bkk">
-                            <img src="icons/telegram.svg" alt="">
-                            Написать в Telegram
-                        </button>
-                        <p>Подписывайтесь на наш Instagram<br>
-                            и следите за новостями
-                        </p>
+
+                        <div class="btn-links">
+
+                            <div class="btn-link mt20">
+                                <img class="btn-link-position" src="./icons/whatsapp.svg" alt="Whatsapp">
+                                <p>Написать Whatsapp</p>
+                            </div>
+
+                            <div class="btn-link mt20">
+                                <img class="btn-link-position" src="./icons/telegram.svg" alt="Telegram">
+                                <p>Написать Telegram</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="subscribe">
+                            <p>Подписывайтесь на наш <a class="subscribe-link" href="#"><u>Instagram</u></a><br>
+                                и следите за новостями</p>
+                        </div>
+
                     </div>
                 </div>
 
@@ -490,22 +500,42 @@
                     </div>
                     <form>
 
-                        <label for="fname"></label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <div class="question-element">
+                            <div class="question-element-position">
+                                <label for="fname"></label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
 
-                        <label for="lname"></label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <div class="question-element-position">
+                                <label for="lname"></label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            </div>
+                        </div>
 
                         <label for="subject"></label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <textarea id="subject" name="subject" placeholder="Write something.." rows="6"></textarea>
 
                         <div class="input-jed-click">
-                            <button>Отправить</button>
+
+                            <div class="input-jed-click-groupe">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1">Даю согласие на обработку<br>
+                                    персональных данных</label>
+                            </div>
+                            <div class="input-jed-click-btn">
+                                <button>Отправить</button>
+                            </div>
                         </div>
 
                     </form>
                 </div>
 
+            </div>
+
+            <div class="public-offer">
+                <p class="public-offer-1">ИП Коваленко Евгений Геннадьевич ИНН784215731801, адрес производства г. Санкт-Петербург 17-я линия В.О 66, пом. 2/07</p>
+                <p class="public-offer-2">Публичная оферта</p>
+                <p class="public-offer-3">Политика конфеденциальности</p>
             </div>
     </div>
 
