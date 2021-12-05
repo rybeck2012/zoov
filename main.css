@@ -718,7 +718,6 @@ a {
     width: 100%;
     display: flex;
     margin-top: 160px;
-    border: 2px solid black;
     background: rgba(150, 25, 20, 1);
     color: #FFF4F3;
 }
